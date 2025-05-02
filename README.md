@@ -25,6 +25,7 @@ MRS Apptainer will run on the following operating systems
 
 ## Quick Start Guide (Linux)
 
+0. Clone this repository (`git clone https://github.com/ctu-mrs/mrs_apptainer`)
 1. Install Apptainer - [install/install_apptainer.sh](./install/install_apptainer.sh).
 2. Create a Apptainer image of the MRS UAV System. _This should take up to 15 minutes, depending on your internet connection and computer resources_.
 
