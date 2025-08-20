@@ -7,6 +7,8 @@ From: ctumrs/mrs_uav_system:latest
     # git handy when cloning inside the container
     sudo apt-get -y install git
 
+    sudo apt-get -y install libmlpack-dev
+
     # python virtual environment for setting up custom venvs
     apt-get -y install python3-venv
 

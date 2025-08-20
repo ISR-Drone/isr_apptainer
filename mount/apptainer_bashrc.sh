@@ -136,3 +136,5 @@ if [ -e /opt/klaxalk/git/linux-setup/appconfig/bash/dotbashrc ]; then
   source /opt/klaxalk/git/linux-setup/appconfig/bash/dotbashrc
 
 fi
+
+source ~/shortcuts.bash

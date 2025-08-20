@@ -18,6 +18,9 @@ From: klaxalk/linux-setup:master # uncomment for bootstrapping from Tomas's linu
     # git handy when cloning inside the container
     sudo apt-get -y install curl git
 
+    #installing dependencies for John's clustering method
+    sudo apt-get -y install libmlpack-dev
+
     # install ROS
     curl https://ctu-mrs.github.io/ppa-stable/add_ros_ppa.sh | bash
     apt-get -y install ros-noetic-desktop-full
